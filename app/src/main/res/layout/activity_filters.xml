@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityFilters"
+    android:id="@+id/framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="fill"
+    ><!--foreground color for a FrameLayout-->
+
+    <include layout="@layout/activity_filter"/>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/addFab"
+        android:background="@drawable/add_imag"
+        android:layout_gravity="left|bottom"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/removeFab"
+        android:background="@drawable/cancel_imag"
+        android:layout_gravity="right|bottom"
+        />
+
+
+</FrameLayout>
